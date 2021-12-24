@@ -1,0 +1,83 @@
+* {
+  margin-top: 0;
+  padding: 0;
+}
+.sm {
+  padding-bottom: 20px;
+  position: relative;
+  bottom: -2px;
+  font-weight: 600;
+  font-family: cursive;
+  font-size: 25px;
+  padding-left: 73px;
+}
+.navigation {
+  font-size: 110%;
+  word-spacing: 10px;
+  text-decoration: none;
+  background-color: rgb(140 ,140, 248);
+  color: rgb(238, 238, 238);
+  padding-right: 5px;
+  padding: 2px;
+  margin-top: 5px;
+}
+.header {
+  font-size: 110%;
+  word-spacing: 10px;
+  text-decoration: none;
+  background-color: rgb(140, 140, 248);
+  color: rgb(238, 238, 238);
+  text-align: right;
+  min-height: 10%;
+}
+.logo {
+  padding-left: 0.5vw;
+  position: relative;
+  top: 50px;
+  size: 60px;
+  max-width: 100%;
+}
+.upnav {
+  font-family: cursive;
+  display: inline-flex;
+  list-style: none;
+  color: white;
+  position: relative;
+  top: 8px;
+  margin: 0;
+  padding-right: 10px;
+  background-size: 100cw;
+
+}
+.navigation:hover {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+.foot {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+.main1 {
+  min-height: 1000px;
+}
+.slider{
+  width: 100%;
+  height: 400px;
+  background-image: url(Img/SLIDER/AA.jpg);
+  background-size: 100%;
+  animation: slide 9s infinite linear;}
+@keyframes slide {
+  0% {
+    background-image: url(Img/SLIDER/AQ.jpg);
+  }
+  35% {
+    background-image: url(Img/SLIDER/AS.jpg);
+  }
+  75% {
+    background-image: url(Img/SLIDER/AZ.jpg); }
+
+.customerl {
+position: relative;
+
+}
